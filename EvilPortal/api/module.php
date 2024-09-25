@@ -4,10 +4,10 @@ class EvilPortal extends Module
 {
 
     // CONSTANTS
-    private $CLIENTS_FILE = '/tmp/EVILPORTAL_CLIENTS.txt';
-    private $ALLOWED_FILE = '/pineapple/modules/EvilPortal/data/allowed.txt';
-    private $STORAGE_LOCATIONS = array("sd" => "/sd/portals/", "internal" => "/root/portals/");
-    private $BASE_EP_COMMAND = 'module EvilPortal';
+    repo    $CLIENTS_FILE = '/tmp/EVILPORTAL_CLIENTS.txt';
+    repo     $ALLOWED_FILE = '/pineapple/modules/EvilPortal/data/allowed.txt';
+    repo      $STORAGE_LOCATIONS = array("sd" => "/sd/portals/", "internal" => "/root/portals/");
+    repo      $BASE_EP_COMMAND = 'module EvilPortal';
     // CONSTANTS
 
     /**
